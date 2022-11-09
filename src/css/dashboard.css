@@ -1,0 +1,72 @@
+.top-span {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C3531;
+    color: white;
+}
+.dashboard-text {
+    padding: 10px;
+}
+
+.logout-bt {
+    padding: 10px;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.div-bt-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-db {
+    position: relative;
+    margin: 40px;
+    background-image: url("https://s7280.pcdn.co/wp-content/uploads/2016/06/database-blue.png");
+    opacity: 0.8;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+.div-up {
+    position: relative;
+    margin: 40px;
+    background-image: url("https://www.openlogic.com/sites/default/files/image/2020-07/image-blog-sql-database.jpg");
+    opacity: 0.8;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+.div-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.user-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.available {
+    margin: 5px;
+}
+
+.pending {
+    margin: 5px;
+}
